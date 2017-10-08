@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+	
+</head>
+<body>
+	<div class="row">
+		<h1>Halloween Hangman Game</h1>
+		<h4 id="differentColor">Don't lose your head!</h4>
+		<p id="differentColor">Press any key to start guessing.</p>
+	</div>
+	<div class="row">
+		<h2 id="bigWord">...</h2>
+	</div>
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-5">
+			<h4>The word is...</h4>
+				<div id="wordSpace"></div>
+			<br>
+			<h4>Letters Left</h4>
+				<div id="numGuesses">...</div>
+			<br>
+			<h4>Letters Guessed</h4>
+				<div id="userGuess">...</div>
+		</div>
+		<div class="col-md-5">
+			<h4>Wins: <span id="wins"></span></h4>
+			<h4>Losses: <span id="losses"></span></h4>
+		<div class="col-md-1"></div>
+		</div>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+	text-align: center;
+	background: url(../images/halloween.jpg);
+	background-size: cover;
+	font-family: 'Nosifer', cursive;
+	color: #b10c0c;
+	letter-spacing: 1px;
+}
+
+#wordSpace {
+	font-size: 30px;
+}
+#bigWord {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+h1 {
+	font-size: 45px;
+}
+h4 {
+	font-size: 30px;
+}
+#numGuesses,
+#userGuess {
+	font-size: 25px;
+}
+
+#differentColor, 
+#wordSpace,
+#numGuesses,
+#userGuess,
+#wins,
+#losses {
+	color: #ed7f3a;
+
+}
